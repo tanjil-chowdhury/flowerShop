@@ -80,3 +80,82 @@ body {
   height: 355px;
   border-radius: 10px;
 }
+
+/* card section style */
+
+.plants-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.plants-section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+.our {
+  color: #f85f00;
+}
+
+.plants-section p {
+  font-size: 16px;
+  color: rgba(29, 0, 0, 0.5);
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plants-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  grid-template-rows: auto;
+}
+
+.plant-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.plant-card img {
+  width: 100%;
+  height: auto;
+}
+
+.plant-card h3 {
+  font-size: 22px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.plant-card p {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* .add-to-cart:hover {
+    background-color: #cc5200;
+}
+
+.plant-card:hover {
+    transform: scale(1.05);
+} */
