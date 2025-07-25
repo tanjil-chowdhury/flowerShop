@@ -1,0 +1,53 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 71px;
+  padding: 10px 20px;
+}
+
+.navbar .logo img {
+  height: 40px; /* Adjust as per your logo */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Cart Section */
+/* .cart a {
+  text-decoration: start;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+} */
