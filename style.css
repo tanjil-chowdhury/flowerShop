@@ -342,3 +342,66 @@ body {
   bottom: 20px;
   left: 20px;
 } */
+
+/* subscribe style */
+
+/* Subscribe Section */
+.subscribe-section {
+  background-image: url('./assets/news-letter-bg.png'); /* Add your background image link here */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 1440px;
+  height: 533px;
+  margin-top: 50px;
+}
+
+.subscribe-content {
+  text-align: center;
+  color: white;
+}
+
+.subscribe-content h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-weight: bold;
+  width: 586px;
+  height: 68px;
+  margin-left: 80px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 830px;
+  height: 50px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 644px;
+  height: 50px;
+  /* margin-right: 10px; */
+  border: 2px solid #fff;
+
+  outline: none;
+}
+
+.subscribe-button {
+  padding: 12px 25px;
+  background-color: #ff6347;
+  color: white;
+  font-size: 16px;
+  border: none;
+
+  width: 186px;
+  height: 50px;
+}
