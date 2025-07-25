@@ -13,6 +13,7 @@ body {
   width: 1140px;
   margin: 0 auto;
 }
+
 /* Navbar styles */
 .navbar {
   display: flex;
@@ -44,10 +45,38 @@ body {
   font-weight: 500;
 }
 
-/* Cart Section */
-/* .cart a {
-  text-decoration: start;
-  color: #333;
+/* banner style */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+  height: 461px;
+}
+
+.banner-text {
+  max-width: 600px;
+}
+
+.ALWAYS {
+  color: black;
+}
+.banner-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f85f00;
+}
+
+.banner-text p {
   font-size: 16px;
-  font-weight: 500;
-} */
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  width: 65%;
+}
+
+.banner-image img {
+  width: 570px;
+  height: 355px;
+  border-radius: 10px;
+}
