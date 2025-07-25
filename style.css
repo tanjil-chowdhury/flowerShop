@@ -120,9 +120,8 @@ body {
   border: 1px solid #ddd;
 
   width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
   text-align: center;
-  transition: transform 0.3s ease;
 }
 
 .plant-card img {
@@ -152,10 +151,4 @@ body {
   width: 100%;
 }
 
-/* .add-to-cart:hover {
-    background-color: #cc5200;
-}
 
-.plant-card:hover {
-    transform: scale(1.05);
-} */
